@@ -1,12 +1,15 @@
 {
   "name": "@invisible-college/keythereum",
-  "version": "1.1.0",
-  "description": "A browser-friendly fork of keythereum using bops.",
+  "version": "1.1.2",
+  "description": "Just the browserified exports of keythereum, for easy deployment.",
   "main": "index.js",
   "directories": {
     "test": "test",
     "lib": "lib"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "mocha test/keys.js",
     "geth": "mocha -R progress test/keys.js && mocha -R progress test/geth.js",
@@ -26,20 +29,20 @@
   },
   "homepage": "https://github.com/ethereumjs/keythereum#readme",
   "dependencies": {
-    "bops": "1.0.0",
+  },
+  "devDependencies": {
     "crypto-browserify": "3.12.0",
     "keccak": "1.4.0",
     "scrypt": "6.0.3",
     "secp256k1": "3.5.0",
     "sjcl": "1.0.6",
-    "uuid": "3.0.0"
-  },
-  "devDependencies": {
+    "uuid": "3.0.0",
     "babel-plugin-transform-es3-member-expression-literals": "6.22.0",
     "babel-plugin-transform-es3-property-literals": "6.22.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-stage-0": "6.24.1",
     "browserify": "16.2.2",
+    "bops": "1.0.0",
     "chai": "4.1.2",
     "coveralls": "3.0.2",
     "eslint": "4.19.1",

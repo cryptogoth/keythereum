@@ -1,0 +1,18 @@
+npm notice 
+npm notice 📦  @invisible-college/keythereum@1.1.2
+npm notice === Tarball Contents === 
+npm notice 1.8kB   package.json                
+npm notice 19.7kB  index.js                    
+npm notice 1.1kB   LICENSE                     
+npm notice 7.1kB   README.md                   
+npm notice 651.5kB dist/keythereum-1.0.4.min.js
+npm notice === Tarball Details === 
+npm notice name:          @invisible-college/keythereum           
+npm notice version:       1.1.2                                   
+npm notice package size:  189.6 kB                                
+npm notice unpacked size: 681.2 kB                                
+npm notice shasum:        ad5c7f7d1062afb94752aea0601cffb8ce462cc3
+npm notice integrity:     sha512-WIo2Cxk+aRhKl[...]/eS5guUw/gzHg==
+npm notice total files:   5                                       
+npm notice 
++ @invisible-college/keythereum@1.1.2
